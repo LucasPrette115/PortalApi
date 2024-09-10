@@ -1,0 +1,68 @@
+# Compiled source files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Compiled object files, static and dynamic libraries, etc.
+*.lo
+*.la
+*.al
+*.o
+*.so
+*.dylib
+
+# Packages
+*.nuget
+*.snupkg
+*.nupkg
+
+# Directories
+bin/
+obj/
+debug/
+release/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code directories
+.vscode/
+.vscode-test/
+
+# Rider project files
+.idea/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Local history for Visual Studio
+.vs/
+.vscode/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# NCrunch
+.ncrunchsolution
+.ncrunchproject
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Build directories
+**/build/
+**/bld/
