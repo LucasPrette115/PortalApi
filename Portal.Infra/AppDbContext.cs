@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Portal.Infra;
 
-public class AppContext : DbContext
+public class AppDbContext(DbContextOptions options) : DbContext(options)
 {
-
 }
